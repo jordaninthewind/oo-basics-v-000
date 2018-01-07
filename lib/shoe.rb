@@ -13,6 +13,6 @@ class Shoe
 
   def cobble
     puts "The shoe has been repaired!"
-    :condition = "new"
+    self.condition = "new"
   end
 end
